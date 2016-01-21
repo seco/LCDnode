@@ -11,6 +11,8 @@ A Node-Red flow on a Raspberry Pi retrieves power, energy, outside temperature a
 
 Cost Today is calculated based on Energy Used times typical cost per kWh for summer or winter. The calculated cost, displayed on the LCD, is only a rough estimate at best.
 
+A rotary encoder with push-button is provided. The encoder's button can be pushed and held during power-up or reset, to set the RTC date/time and Node ID. During normal operation, pressing the encoder's push-button toggles the LCD backlight On/Off.
+
 The data on the LCD display is updated as follows:
 
    - Day/date is updated once a day
@@ -18,7 +20,7 @@ The data on the LCD display is updated as follows:
    - Local environmental data is updated every 15 seconds
    - Remote data (outdoor temp & humidity/power/energy) is 	updated as received (every 10 seconds)
 
-Node Number is 20. Network Group is 210. RF Frequency Band is 433Mhz
+Default Node Number is 20. Network Group is 210. RF Frequency Band is 433Mhz
 
 Libraries required:
 
