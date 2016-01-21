@@ -11,7 +11,7 @@ A Node-Red flow on a Raspberry Pi retrieves power, energy, outside temperature a
 
 Cost Today is calculated based on Energy Used times typical cost per kWh for summer or winter. The calculated cost, displayed on the LCD, is only a rough estimate at best.
 
-A rotary encoder with push-button is provided. The encoder's button can be pushed and held during power-up or reset, to set the RTC date/time and Node ID. During normal operation, pressing the encoder's push-button toggles the LCD backlight On/Off.
+A rotary encoder with push-button is provided. The button can be pushed and held during power-up (or reset) to set the RTC date/time and Node ID. During normal operation, pressing the button toggles the LCD backlight On/Off.
 
 The data on the LCD display is updated as follows:
 
