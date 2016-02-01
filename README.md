@@ -24,11 +24,11 @@ Default Node Number is 20. Network Group is 210. RF Frequency Band is 433Mhz
 
 Libraries required:
 
-> https://github.com/adafruit/Adafruit-BMP085-Library
-> https://github.com/adafruit/Adafruit-GFX-Library
-> https://github.com/adafruit/Adafruit_ILI9341
-> https://github.com/adafruit/DHT-sensor-library
-> http://hacks.ayars.org/2011/04/ds3231-real-time-clock.html
-> https://github.com/jcw/jeelib
+- https://github.com/adafruit/Adafruit-BMP085-Library
+- https://github.com/adafruit/Adafruit-GFX-Library
+- https://github.com/adafruit/Adafruit_ILI9341
+- https://github.com/adafruit/DHT-sensor-library
+- http://hacks.ayars.org/2011/04/ds3231-real-time-clock.html
+- https://github.com/jcw/jeelib
 
 and others as noted (SPI, Wire)
